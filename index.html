@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Noto+Sans+KR:wght@100;400&family=Roboto:ital,wght@0,900;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index.css">
+<body>
+    <section>
+      
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Login</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" required name="email">
+                        <label for="">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" required name="password">
+                        <label for="">Password</label>
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Remeber the password<a href="#">Forget Paasword</a></label>
+                        
+                    </div>
+                    <button onclick="check(this.form)">Log in</button>
+                    <div class="register">
+                        <p><ion-icon name="caret-back-circle-outline" ></ion-icon>sign up <a href="#">Register</a></p>
+                    </div>
+                  
+                </form>
+            </div>
+            
+        </div>
+       
+    </section>
+
+      
+   
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="login.js"> </script>
+  
+    
+
+
+</body>
+</html>
